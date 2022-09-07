@@ -27,7 +27,7 @@ namespace MeuTodo
             {
                 //Abaixo os mapeamentos para os nossos controllers
                 endpoints.MapControllerRoute(
-                    name:"default",
+                    name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
